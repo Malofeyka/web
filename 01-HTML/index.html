@@ -1,41 +1,64 @@
-﻿<!DOCKTYPE html> <!--Тип документа и версия стандарта html. HTML 5 - единственный актуальный формат-->
+﻿<!DOCTYPE html> <!--Тип документа и версия стандарта html. HTML 5 - единственный актуальный формат-->
 
 <html lang="ru">
     <head>
         <!--Заголовок документа, содержит метаданные для поисковых машин и другую служебную информацию-->
         <meta charset="utf-8"/>
         <meta name="author" content="James Smith" />
-        <meta name="description" content="C++ Types" />
-        <title>C++ types</title>
+        <meta name="description" content="Web Introduction" />
+        <title>Web Introduction</title>
         <link rel="icon" href="bitcoin.ico" type="image/x-icon" />
     </head>
     <body>
-        <!--<h1 align="center">Заголовок 1 - может быть только один на всю страницу</h1>
-    <p>Остальных заголовков может быть сколько угодно</p>
-    <hr>
-    <h2 align="center">Дескрипторы (tags)</h2>
-    <p>
-        <b>&#60;p&#62;(Paragraph)</b> - блочный дескриптор описывающий параграф. Атрибуты:<br>
-        <b>align</b>="<i> left | right | center | justify</i>" - выравнивание абзаца<br />
-        <b>&#60;b&#62;(Bald)</b> - <b>делает текст жирным</b> <br />
-        <b>&#60;i&#62;(Italic)</b> - <i>делает текст курсивным<i/><br />
-        <b>&#60;r&#62;(Underscore)</b> - <u>подчеркивает текст</u><br />
-        <b>&#60;s&#62;(Strike)</b> - <s>перечеркивает текст</s><br />
-        <b>&#60;strike&#62;(Strike)</b> - <strike>перечеркивает текст</strike><br />
-    </p>-->
-        <h1>Основные типы данных в C++</h1>
-
-        <p>В языке программирования C++ существует несколько основных типов данных:</p>
-
-        <ul>
-            <li><strong>int</strong> - целые числа (например, 5, -10).</li>
-            <li><strong>float</strong> или <>double</> - чисел с плавающей точкой (например, 3.14, -0.01).</li>
-            <li><strong>char</strong> - символы (один символ, например, 'a', 'A').</li>
-            <li><strong>bool</strong> - булевы значения (true или false).</li>
-            <li><strong>void*</strong> - указатель на объект неизвестного типа.</li>
-        </ul>
-
-        <p>Кроме этих, существуют и другие более сложные типы данных, такие как массивы, структуры, классы и т.д., которые позволяют создавать более сложные и гибкие структуры данных.</p>
+        <h1 style="text-align:center;font-family:Arial;color:darkblue">Заголовок 1 - может быть только один на всю страницу</h1>
+        <p>Остальных заголовков может быть сколько угодно</p>
+        <hr>
+        <h2 style="text-align:center">Дескрипторы (tags)</h2>
+        <p>
+            <b>&#60;p&#62;(Paragraph)</b> - блочный дескриптор описывающий параграф. Атрибуты:<br>
+            <b>align</b>="<i> left | right | center | justify</i>" - выравнивание абзаца<br>
+            <b>&#60;b&#62;(Bald)</b> - <b>делает текст жирным</b> <br>
+            <b>&#60;i&#62;(Italic)</b> - <i>делает текст курсивным</i><br>
+            <b>&#60;r&#62;(Underscore)</b> - <u>подчеркивает текст</u><br>
+            <b>&#60;s&#62;(Strike)</b> - <s>перечеркивает текст</s><br>
+            <b>&#60;strike&#62;(Strike)</b> - <span style="text-decoration:line-through">перечеркивает текст</span><br>
+        </p>
+        Не всегда имеют визуальное отображение на странице но рекомендуются к использованию в целях SEO оптимизации. Некоторые дескрипторы логического форматирования дублируют дескрипторы физического форматирования
+        <h2>Дескрипторы логического форматирования</h2>
+        <p>
+            <br>
+            <strong>Strong</strong> - bold<br>
+            <em>Emphasized</em> - italic<br>
+            Дескриптор <small>small</small> - уменьшает шрифт на еденицу от базового, а <span style=" font-size:larger">big</span> &ndash; увеличивает на еденицу.
+            Базовый размер шрифта - 15
+            <br>
+            Индексы<sub>sub</sub><sup>sup</sup>
+            <br>
+            Дескрипторы <samp>samp</samp> и <code>code</code> используются для вывода фрагментов программного кода. Выводят текст <tt>моноширинным</tt> шрифтом
+            <br />
+            Для вывода программного кода так же часто используеться 'pre' - Preformatted. Это блочный дескриптор который нельзя использовать внутри 'p'<br />
+        </p>
+        <pre>
+            <code>
+                for(counter; condition; expresion)
+                {
+                    ...;
+                    group-of-statements;
+                    ...;
+                }
+            </code>
+        </pre>
+        <h2>Сокращения</h2>
+        <p>
+            Вделяются дескриптороами 'acronym' и 'abbr' (abbreviation), например: <br>
+            <strong>Visua1 Studio</strong> &ndash; это лучашя в мире <acronym title="Integrated Development Environment - Интегрированая среда разработки">IDE</acronym>!!!
+        </p>
+        <h2>Цитаты</h2>
+        <site>Цитата(site) - не пишется в параграфе(p)</site><br>
+        <backquote>Длинная цитата(backquote), не пишеться в параграфе</backquote>
+        <p>
+        <q>Короткая цитата</q>
+        </p>
 
     </body>
 </html>

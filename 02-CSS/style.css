@@ -1,0 +1,20 @@
+﻿body {
+    font-family: Consolas;
+    font-size: 16px;
+}
+
+h1 {
+    color: hotpink;
+    font-family: 'Playwrite CU', 'Consolas';
+}
+
+p {
+}
+
+#Intro {
+    color: darkblue;
+}
+
+.Definition {
+    font-weight: 700;
+}

@@ -2,6 +2,7 @@
 body {
     font-family: Consolas;
     font-size: 16px;
+    background-image:url(pcb.png)
 }
 
 h1 {
@@ -10,6 +11,8 @@ h1 {
 }
 
 p {
+    font-size: 18px;
+    background-color: rgba(255,255,0,0.7);
 }
 
 #Intro {
@@ -28,4 +31,12 @@ p {
      /*+ - дескрипторы следуют строго один за другим*/
      /*~ - между дескрипторами могут встечаться другие дескрипторы*/
      color: red;
+ }
+ img{
+
+     border: solid;
+     align-content: center;
+     float: left;
+     width: 50%;
+     margin: 0% 2% 0% 0% ;
  }

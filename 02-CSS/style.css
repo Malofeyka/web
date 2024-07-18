@@ -1,11 +1,12 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
     font-family: Consolas;
     font-size: 16px;
 }
 
 h1 {
     color: hotpink;
-    font-family: 'Playwrite CU', 'Consolas';
+    font-family: 'Playwrite CU', 'Segoe Script', sans-serif;
 }
 
 p {
@@ -18,3 +19,13 @@ p {
 .Definition {
     font-weight: 700;
 }
+
+ p > b {
+     /*<b> вложен в <p>*/
+     color: green;
+ }
+ h1 ~ h2{
+     /*+ - дескрипторы следуют строго один за другим*/
+     /*~ - между дескрипторами могут встечаться другие дескрипторы*/
+     color: red;
+ }

@@ -1,0 +1,19 @@
+﻿body
+{
+    font-size: 24px;
+}
+
+ol{
+    list-style: georgian;
+}
+
+ul{
+    list-style: disc;
+    color: blue;
+    text-align: justify;
+    list-style-position: inside;       
+}
+
+.bitcoin{
+    list-style-image: url(paw.svg);
+}

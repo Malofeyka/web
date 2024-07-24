@@ -1,0 +1,41 @@
+﻿body
+{
+    text-align:justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Consolas;
+}
+
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: rgba(107,95,181);
+    color: white;
+}
+
+.RowHeader{
+    font-weight:500;
+}
+
+h4{
+    text-align: center;
+}
+

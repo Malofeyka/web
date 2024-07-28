@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Регистрация</title>
+    <style>
+        body{
+            font-family: Consolas;
+        }
+    </style>
+</head>
+<body>
+    <form action="#file.php" method="post">
+        <p><input type="text" placeholder="Введите логин" name="login" id="tb_login"></p>
+        <p><input type="tel" placeholder="Номер телефона" name="tel" id="tb_tel"></p>
+        <p><input type="password" placeholder="Введите пароль" name="passwd" id="tb_passwd"></p>
+        <p> Добавьте фото:<br><input type="file" name="file"></p>
+        <fieldset width="30%">
+            <legend>Ваш пол</legend>
+            <p>                
+                <input type="checkbox" name="gen1" id="gen1"><label for="gen1">Мужской</label> <br>
+                <input type="checkbox" name="gen2" id="gen2"><label for="gen2">Женский</label> <br>
+                <input type="checkbox" name="gen3" id="gen3"><label for="gen3">Мужской 1</label> <br>
+                <input type="checkbox" name="gen4" id="gen4"><label for="gen4">Женский 1</label> <br>
+            </p>
+        </fieldset>
+
+        <p>
+            Выберите любимый цвет: <input name="color" type="color"><br>
+            Когда вы хотите каникулы: <input name="week" type="week"><br>
+            Куда поехать на каникулах: <input name="search" type="search"><br>
+        </p>
+
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>

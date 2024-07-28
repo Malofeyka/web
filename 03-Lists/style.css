@@ -1,6 +1,8 @@
 ﻿body
 {
     font-size: 24px;
+    font-family: Arial;
+    font-weight: 600;
 }
 
 ol{
@@ -9,11 +11,36 @@ ol{
 
 ul{
     list-style: disc;
-    color: blue;
+    color: black;
     text-align: justify;
     list-style-position: inside;       
 }
 
 .bitcoin{
     list-style-image: url(paw.svg);
+}
+
+.roman{
+    list-style: upper-roman;
+}
+
+.literal{
+    list-style: lower-latin;
+}
+
+.yellowDisc {
+    list-style-image: url(yellowDisc.png);
+    
+}
+
+.checkMark {
+    list-style-image: url(checkMark.svg);
+}
+
+.redDisc {
+    list-style-image: url(redDisc.png);
+}
+
+.cross {
+    list-style-image: url(cross.svg);
 }

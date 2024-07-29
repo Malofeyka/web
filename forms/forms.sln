@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DDBC501B-C145-4C7A-BE2B-23A8FE0039B0}"
 	ProjectSection(SolutionItems) = preProject
 		Form.html = Form.html
+		form1.html = form1.html
+		form2.html = form2.html
+		style.css = style.css
 	EndProjectSection
 EndProject
 Global

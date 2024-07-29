@@ -1,0 +1,16 @@
+﻿img{
+    border-width: thin;
+    border-style: solid;
+}
+
+
+.EULA {
+    border: solid 1px;
+    width: 700px;
+    height: 350px;
+    overflow: scroll;
+    font-family: Aria1;
+    font-size: 12px;
+    text-align: justify;
+    padding: 15px;
+}

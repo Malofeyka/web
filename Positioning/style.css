@@ -1,0 +1,16 @@
+﻿body
+{
+}
+
+.logo{
+    border: solid 3px;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.header{
+    background: silver;
+    position: sticky;
+    top:0;
+}
